@@ -8,13 +8,13 @@ const header = ({ activeItem, handleItemClick }) => (
   <Menu secondary>
     <Menu.Item name='home' active={activeItem === 'home'} onClick={handleItemClick} />
     <Menu.Item
-      name='messages'
-      active={activeItem === 'messages'}
+      name='contacts'
+      active={activeItem === 'contacts'}
       onClick={handleItemClick}
     />
     <Menu.Item
-      name='friends'
-      active={activeItem === 'friends'}
+      name='tasks'
+      active={activeItem === 'tasks'}
       onClick={handleItemClick}
     />
     <Menu.Menu position='right'>
