@@ -8,8 +8,10 @@ import {
 } from 'semantic-ui-react'
 
 import PhotoModal from './photo'
+import Form from './form'
 
 const imageTag = <Image wrapped size='medium' src='https://picsum.photos/200/300' />
+const formField = <Form />
 
 const FullModal = ({
   trigger,
@@ -21,7 +23,7 @@ const FullModal = ({
       <PhotoModal
         header={header}
         imageTag={imageTag}
-        description={description}
+        description={formField}
       />
     </Modal>
   )

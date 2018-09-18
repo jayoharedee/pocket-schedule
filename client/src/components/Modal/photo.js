@@ -5,7 +5,6 @@ import {
   Modal,
   Header
 } from 'semantic-ui-react'
-import Form from './form'
 
 const photoModal = ({
   header,
@@ -20,9 +19,7 @@ const photoModal = ({
         <Modal.Description>
           <Header>Default Profile Image</Header>
           <p>We've found the following gravatar image associated with your e-mail address.</p>
-          <p>{description}</p>
-          {/*Make sure something like a form field goes here*/}
-          <Form />
+          {description}
         </Modal.Description>
       </Modal.Content>
     </React.Fragment>
